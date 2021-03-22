@@ -1,0 +1,419 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--FONTS-->
+  <link rel="stylesheet" href="https://use.typekit.net/cdm2jkp.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+  <style>
+@media only screen and (max-width:600px){.desktop{display:none}body,html{min-height:100%;height:100%}.nav-2{background:unset;position:absolute;right:10vw;top:15vh}nav{background:#25e6a3}.nav-wrapper{width:90%;margin:auto}.top-wrapper{height:50px;display:flex;justify-content:center;align-items:center}.logo-div{float:left;width:70%}.logo{width:100%;height:auto}.flag-div{float:left;width:30%;text-align:center;margin-top:-5px}.flag{width:25%}.bottom-text{color:#fff;font-size:4.5vw;font-family:agenda,sans-serif;font-weight:700;font-style:normal;padding-bottom:15px}.bottom-text span{font-family:Martel,serif;font-size:3.5vw}nav ul{list-style-type:none;text-align:right}.item{font-size:8vw;color:#25e6a3;margin:-4vw;font-family:agenda,sans-serif}nav .active{color:#000}}@media only screen and (min-width:600px){.mobile{display:none}nav{width:100vw;text-align:center}ul{list-style-type:none}.item{float:left;padding:10px 1vw 7px 2.5vw;border-radius:1px 1px 1px 20px;background:#25e6a3;color:#fff;font-family:agenda,sans-serif;font-size:1.5vw;margin-right:2vw}.item-div{width:fit-content;height:100px;display:flex;justify-content:center;align-items:center;float:left}.flag-div{width:fit-content;height:100px;float:left;height:100px;display:flex;justify-content:center;align-items:center}.logo-div{position:absolute;top:1vh;right:1vw;width:30vw;text-align:right}nav .active{background:rgb(133,135,184,.3);color:#000}}footer{width:100%;bottom:0;background-color:#c3c3c3;height:fit-content}footer ul{list-style-type:none;text-align:center;padding:0;margin:5px}footer li img{height:100%}
+   
+.home ul{
+      list-style-type: none;
+      padding: 20px;
+      padding-top: 0px;
+    }
+    .home ul .text{
+      font-size: 0.7em;
+      margin-left: 2vw;
+      font-weight: bold;
+      font-family:agenda,sans-serif
+    }
+    .box{
+      text-align: center;
+    }
+    .box li{
+      text-align: left;
+      margin-left: 10%;
+      font-family:agenda,sans-serif;
+      font-size: 1.5em;
+      list-style-type: none;
+    }
+    .box li::before{
+      content: url("assets/dot.svg");
+      margin-right: 10px;
+    }
+
+    .img{
+      width: 100%;
+    }
+    .img-2{
+      width: 80%;
+    }
+    .spacer{
+      margin: 10px 30%;
+      border:none !important;
+  border-top: 5px dashed #B90D0D !important;
+    border-top-width:5px;
+    border-right-width:0px;
+    border-bottom-width:0px;
+    border-left-width:0px;
+    }
+    .box-2{
+      width: 90%;
+      margin: auto;
+      padding-top: 25px;
+      background: rgb(0, 0, 0, 0.1);
+      padding-bottom: 50px;
+      border-radius: 10px 50px 10px 50px;
+    }
+    .box-2 li{
+      text-align: left;
+      margin-left: 5%;
+      margin-bottom: 2.5vh;
+      margin-top: 2.5vh;
+      font-family:agenda,sans-serif;
+      font-size: 1.5em;
+      list-style-type: none;
+
+    }
+    .box-2 p{
+      width: 90%;
+      margin: auto;
+      color: #707070;
+      font-family: Helvetica, sans-serif;
+      font-size: 0.8em;
+    }
+    .box-2 h1{
+      text-align: center;
+      font-family: Helvetica, sans-serif;
+      font-size: 2.5em;
+      margin: 0;
+      font-weight: 300;
+    }
+    .box-2 .yellow{
+      background: #FFFF22;
+      width: 100vw;
+      margin-left: -5%;
+      padding-bottom: 1px;
+      margin-top: -25px;
+    }
+    .box-2 .yellow p{
+      font-size: 0.65em;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      color: #383838;
+      margin-bottom: 20px;
+      font-weight: 600;
+      padding-top: 30px;
+    }
+    h1{
+      font-family: Helvetica, sans-serif;
+      font-size: 3em;
+      margin-left: 10%;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+    .h1-spacer{
+      border:none !important;
+  border-top: 3px solid #000 !important;
+    margin-top: -5px;
+    margin-left: 10%;
+    width: 40%;
+
+    }
+    
+    .h2-spacer{
+      border:none !important;
+      border-top: 2px dashed #B90D0D !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    }
+    .qh{
+      font-family: Helvetica, sans-serif;
+      margin:0;
+      margin-left: 10%;
+      font-size: 1em;
+    }
+    .qp{
+      font-family: Helvetica, sans-serif;
+      margin: 0;
+      margin-left: 10%;
+      font-size: 0.8em;
+      width: 80%;
+
+    }
+    .box-3{
+      width: 90%;
+      margin: auto;
+      padding-top: 10px;
+      background: rgb(0, 0, 0, 0.1);
+      padding-bottom: 10px;
+      border-radius: 5px 5px 5px 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  label{
+    font-family: Helvetica, sans-serif;
+      margin:0;
+    font-size: 1.2em;
+    margin-left: 0%;
+  }
+  label::before{
+    content: url("assets/dot.svg");
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  input{
+    border: none;
+    margin-left: 5px;
+    background: none;
+  }
+  textarea{
+    width: 90%;
+    margin: auto;
+    border: none;
+    background: none;
+    height: 100px;
+  }
+  .q{
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    text-align: center;
+  color: rgb(0, 0, 0, 0.3);
+  margin: 10px;
+  }
+
+ </style>
+</head>
+
+<body>
+<!-- MOBILE NAV-->
+<div class="mobile">
+  <nav>
+      <div class="nav-wrapper">
+          <div class="top-wrapper">
+      <div class="logo-div">
+          <img class="logo" src="assets/logo.png">
+      </div>
+      <div class="flag-div">
+        <img class="flag" src="assets/flag.png">
+        <img class="flag" src="assets/flag1.png">
+      </div>
+          </div>
+
+      <div class="bottom-text">
+          robin assistant service <span>your daily assistant</span>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="nav-2">
+      <ul>
+          <li class="item active">home</li>
+          <li class="item ">contact</li>
+          <li class="item">about</li>
+      </ul>
+  </nav>
+</div>
+
+<!--DESKTOP NAV-->
+<div class="desktop">
+    <nav>
+        <div class="nav-wrapper">
+       
+        <div class="item-div">
+            <ul>
+                <li class="item active">Home</li>
+                <li class="item ">Contact</li>
+                <li class="item">About</li>
+            </ul>
+        </div>
+        <div class="flag-div">
+          <img class="flag" src="assets/flag.png">
+          <img class="flag" src="assets/flag1.png">
+        </div>
+        <div class="logo-div">
+          <img class="logo" src="assets/logo.png">
+      </div>
+  </div>
+</div>
+
+<!-- MOBILE SITE?-->
+<div class="mobile">
+  <!--HOME-->
+  <style>
+  
+  </style>
+  <div class="item-div home">
+    <ul>
+        <li class=""><img class="flag" src="assets/meeting.png"></li>
+        <li class="text">plan meeting</li>
+
+    </ul>
+</div>
+
+<div class="box">
+  <li class="">our mission</li>
+  <img class="img" src="assets/img1.png">
+  <img class="img-2" src="assets/img2.png">
+</div>
+<!-- End of home-->
+
+
+<hr class="spacer">
+<!--Start about -->
+<div class="box-2">
+<li>Wat wij doen</li>
+<p>De dagelijkse activiteiten worden in Robin assistant Dashboard door begeleider voorbereid zodat de begeleide personen ze zonder directe begeleiding toch met succes kunnen uitvoeren. De activiteiten worden step-by-step ingesteld. Afhankelijk van het niveau van de schade/ beperking hebben de begeleide personen meer of minder begeleiding nodig d.m.v. tekst, beeld en audio. <br><br>Bemika software is een jonge internationale software start- up dat als doel heeft mensen te helpen die buiten de mainstream trends in de hedendaagse technologie vallen. Zij ontwikkelen Robin assistant – een assistive software service voor de mensen met hersenschade/beperking (zoals bijvoorbeeld autisme, het syndroom van Down, ziekte van Alzheimer en andere vormen van dementie, herseninfarct, ongelukken, etc.) en hun begeleiders. Deze mensen met speciale behoeftes hebben hulp nodig bij het uitvoeren van hun dagelijkse activiteiten en worden hierin begeleid door de begeleiders zoals familieleden, artsen, therapeuten, leraren, coaches en verschillende organisaties</p>
+<hr class="spacer">
+<h1>Kom in contact</h1>
+<div class="yellow"><p>Bemika software is een jonge internationale software start-up dat als doel heeft mensen te helpen die buiten de mainstream trends in de hedendaagse technologie vallen. Zij ontwikkelen Robin assistant – een assistive software service voor de mensen met hersenschade/beperking (zoals bijvoorbeeld autisme, het syndroom van Down, ziekte van Alzheimer en andere vormen van dementie, herseninfarct, ongelukken, etc.) en hun begeleiders.</p>
+</div>
+<br>
+<hr class="spacer">
+<li>Robin Assistant</li>
+<p>Ga. Et quunti solento dem alit plam audaepe dolenis erumquiatem in eatiurias plit apic tem audam, ea simi, velendit molore re, que lat volor sit fugia volupicatur simus dendes eatur Git res es dit, nis aut facepta vellani tiuntur? Xerchitatur aut volore core et eos verorepra duciende dolorest laccus.Or rerio omniam estruntio. Et ut hillaut laccusa ndanis eserferferum que voluptatus, nobissit imagnatessim eum utem re nimpore sit, ipicto omnis magnimporro occus et everat qui vendis eatum harcien dicilig nissinc tintemp erionsente eat expel magnate mporios ullatiossin rent, sam andam quid quas am aut que sunt ium qui dolecto tem voloribus arum rem volupti asperib usandit istrum a net vel molorem alis eaque volor accum ut molorec toreicim landaes aut volupta debis quam, qui volora expel magnate mporios ullatiossin rent, sam andam quid quas am aut que sunt ium qui dolecto tem voloribus arum rem volupti asperib usandit istrum a expel magnate mporios ullatiossin rent, sam andam quid quas am aut que sunt ium qui dolecto tem voloribus arum rem volupti asperib usandit istrum a net vel molorem alis eaque volor accum ut molorec toreicim landaes aut volupta debis quam, qui volora</p>
+</div>
+
+<!--End of about-->
+<hr class="spacer">
+<!--Start of FAQ-->
+
+  <h1>FAQ</h1>
+
+  <hr class="h1-spacer">
+  <h2 class="qh">
+  Hoe werkt Robin?
+  </h2>
+  <p class="qp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum culpa neque architecto? Explicabo nemo unde error quos amet.</p>
+  <hr class="h2-spacer">
+  <h2 class="qh">
+    Hoe help Robin mij?
+    </h2>
+    <p class="qp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum culpa neque architecto? Explicabo nemo unde error quos amet.</p>
+    <hr class="h2-spacer">
+    <h2 class="qh">
+    Waar maak ik een account aan?
+      </h2>
+      <p class="qp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum culpa neque architecto? Explicabo nemo unde error quos amet.</p>
+<!-- End of FAQ-->
+<hr class="spacer">
+<!-- Start of contact-->
+<h1>Contact</h1>
+<div class="box-3">
+  <label>E-mail:</label><input type="text" class="input" placeholder="e-mail">
+</div>
+<div class="box-3">
+  <label>Naam:</label><input type="text" class="input" placeholder="naam">
+</div>
+<div class="box-3">
+  <textarea></textarea>
+</div>
+<h2 class="q">stel je vraag.</h2>
+<!-- End of contact-->
+<hr class="spacer">
+<br>  <footer>
+  <ul>
+      <li><img src="assets/socials.svg" class="socials"></li>
+  </ul>  
+</footer>
+<!-- END OF MOBILE!-->
+</div>
+
+<!-- DESKTOP SITE??-->
+<div class="desktop">
+  <!--HOME-->
+  <style>
+  
+  </style>
+  <div class="item-div home">
+    <ul>
+        <li class=""><img class="flag" src="assets/meeting.png"></li>
+        <li class="text">plan meeting</li>
+
+    </ul>
+</div>
+
+<div class="box">
+  <li class="">our mission</li>
+  <img class="img" src="assets/img1.png">
+  <img class="img-2" src="assets/img2.png">
+</div>
+<!-- End of home-->
+
+
+<hr class="spacer">
+<!--Start about -->
+<div class="box-2">
+<li>Wat wij doen</li>
+<p>De dagelijkse activiteiten worden in Robin assistant Dashboard door begeleider voorbereid zodat de begeleide personen ze zonder directe begeleiding toch met succes kunnen uitvoeren. De activiteiten worden step-by-step ingesteld. Afhankelijk van het niveau van de schade/ beperking hebben de begeleide personen meer of minder begeleiding nodig d.m.v. tekst, beeld en audio. <br><br>Bemika software is een jonge internationale software start- up dat als doel heeft mensen te helpen die buiten de mainstream trends in de hedendaagse technologie vallen. Zij ontwikkelen Robin assistant – een assistive software service voor de mensen met hersenschade/beperking (zoals bijvoorbeeld autisme, het syndroom van Down, ziekte van Alzheimer en andere vormen van dementie, herseninfarct, ongelukken, etc.) en hun begeleiders. Deze mensen met speciale behoeftes hebben hulp nodig bij het uitvoeren van hun dagelijkse activiteiten en worden hierin begeleid door de begeleiders zoals familieleden, artsen, therapeuten, leraren, coaches en verschillende organisaties</p>
+<hr class="spacer">
+<h1>Kom in contact</h1>
+<div class="yellow"><p>Bemika software is een jonge internationale software start-up dat als doel heeft mensen te helpen die buiten de mainstream trends in de hedendaagse technologie vallen. Zij ontwikkelen Robin assistant – een assistive software service voor de mensen met hersenschade/beperking (zoals bijvoorbeeld autisme, het syndroom van Down, ziekte van Alzheimer en andere vormen van dementie, herseninfarct, ongelukken, etc.) en hun begeleiders.</p>
+</div>
+<br>
+<hr class="spacer">
+<li>Robin Assistant</li>
+<p>Ga. Et quunti solento dem alit plam audaepe dolenis erumquiatem in eatiurias plit apic tem audam, ea simi, velendit molore re, que lat volor sit fugia volupicatur simus dendes eatur Git res es dit, nis aut facepta vellani tiuntur? Xerchitatur aut volore core et eos verorepra duciende dolorest laccus.Or rerio omniam estruntio. Et ut hillaut laccusa ndanis eserferferum que voluptatus, nobissit imagnatessim eum utem re nimpore sit, ipicto omnis magnimporro occus et everat qui vendis eatum harcien dicilig nissinc tintemp erionsente eat expel magnate mporios ullatiossin rent, sam andam quid quas am aut que sunt ium qui dolecto tem voloribus arum rem volupti asperib usandit istrum a net vel molorem alis eaque volor accum ut molorec toreicim landaes aut volupta debis quam, qui volora expel magnate mporios ullatiossin rent, sam andam quid quas am aut que sunt ium qui dolecto tem voloribus arum rem volupti asperib usandit istrum a expel magnate mporios ullatiossin rent, sam andam quid quas am aut que sunt ium qui dolecto tem voloribus arum rem volupti asperib usandit istrum a net vel molorem alis eaque volor accum ut molorec toreicim landaes aut volupta debis quam, qui volora</p>
+</div>
+
+<!--End of about-->
+<hr class="spacer">
+<!--Start of FAQ-->
+
+  <h1>FAQ</h1>
+
+  <hr class="h1-spacer">
+  <h2 class="qh">
+  Hoe werkt Robin?
+  </h2>
+  <p class="qp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum culpa neque architecto? Explicabo nemo unde error quos amet.</p>
+  <hr class="h2-spacer">
+  <h2 class="qh">
+    Hoe help Robin mij?
+    </h2>
+    <p class="qp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum culpa neque architecto? Explicabo nemo unde error quos amet.</p>
+    <hr class="h2-spacer">
+    <h2 class="qh">
+    Waar maak ik een account aan?
+      </h2>
+      <p class="qp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum culpa neque architecto? Explicabo nemo unde error quos amet.</p>
+<!-- End of FAQ-->
+<hr class="spacer">
+<!-- Start of contact-->
+<h1>Contact</h1>
+<div class="box-3">
+  <label>E-mail:</label><input type="text" class="input" placeholder="e-mail">
+</div>
+<div class="box-3">
+  <label>Naam:</label><input type="text" class="input" placeholder="naam">
+</div>
+<div class="box-3">
+  <textarea></textarea>
+</div>
+<h2 class="q">stel je vraag.</h2>
+<!-- End of contact-->
+<hr class="spacer">
+<br>  <footer>
+  <ul>
+      <li><img src="assets/socials.svg" class="socials"></li>
+  </ul>  
+</footer>
+</div>
+<!--
+
+-->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
